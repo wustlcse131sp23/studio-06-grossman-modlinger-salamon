@@ -32,7 +32,7 @@ public class CirclesDemoApp {
 				StdDraw.show();
 				Object[] options = { "Continue", "Exit" };
 
-				StringBuilder sb = new StringBuilder();
+				StringBuilder sb = new StringBuilder(); 
 				sb.append("<html>");
 				sb.append(String.format("Methods.circlesUponCircles(0.0, 0.0, %s, %s)", radius, radiusThreshold));
 				sb.append("<br/>");
